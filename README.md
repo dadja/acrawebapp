@@ -28,7 +28,7 @@ and developped by ReptxStudio
 this software is free to use but you must notify the two teams behind the project ACRA and ReptxStudios 
 and mention their names when producing your app from this one
 
-# this is the mobile part of a software to collect data 
+this is the web part of a software to collect data 
 
 #it has been developped using FireBase and AmgularFire
 # SETUP
