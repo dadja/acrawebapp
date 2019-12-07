@@ -30,15 +30,11 @@ and mention their names when producing your app from this one
 
 # this is the mobile part of a software to collect data 
 
-#it has been developped using FireBase and Flutter
-
-# you need to link a firebase project to this one and the web app to make it work 
-
-# you will aslo have to provide a google maps key in order to have the map working and display data on it 
-
-
-##to set things up this is the process to follow 
-  -  First from FireBase console importe the google_service.json file from you project
+#it has been developped using FireBase and AmgularFire
+# SETUP
+  - you need to link a firebase project to this one and the web app to make it work 
+  - you will aslo have to provide a google maps key in order to have the map working and display data on it  
+  -  First from FireBase console import the google_service.json file from you project
    and drop it in this project at "mobileapp/android/app/google_service.json"
   -  Second add your google maps key at 
   "mobileapp/android/app/src/main/AndroidManifest". Inside that file loof for "DROPGOOGLEMAPSKEYHERE" and replace it by your key. 
