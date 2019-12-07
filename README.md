@@ -3,7 +3,8 @@ ACRA Web APP is a mobile application created for the NGO Acra as part of the dev
 
 ## MIT License
 
-Copyright (c) [2019] [ReptxStudio] [ACRA]
+Copyright (c) Acra [2019] 
+[ReptxStudio] [ACRA]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
