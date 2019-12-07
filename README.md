@@ -34,12 +34,83 @@ and mention their names when producing your app from this one
 # SETUP
   - you need to link a firebase project to this one and the web app to make it work 
   - you will aslo have to provide a google maps key in order to have the map working and display data on it  
-  -  First from FireBase console import the google_service.json file from you project
-   and drop it in this project at "mobileapp/android/app/google_service.json"
-  -  Second add your google maps key at 
-  "mobileapp/android/app/src/main/AndroidManifest". Inside that file loof for "DROPGOOGLEMAPSKEYHERE" and replace it by your key. 
-  -  You need to create an FireBase Authentification Account if you didnt done it yet and insert the right credentials in this project at
-  "mobileaqpp/lib/services/auth_service.dart".Inside that file go at line 31 and 32 to provide the creadentials of the account you previously created.
+## Fichier app.module.ts
+here you need to insert the keys from firebaseproject and google maps
+
+Line 49
+
+```javascript
+import foobar
+//Information de connexion au projet firebase
+var config = {
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
+  measurementId: ''
+};
+```
+
+
+Line 112
+```javascript
+import foobar
+AgmCoreModule.forRoot({
+      apiKey: ''  /* apiKey Google Map */
+    
+    }),
+```
+
+
+
+
+## Fichier app.component.ts
+here you must create a user form Firebase Authentification screen in Firebase console 
+to authenticate your app and insertes the account credentials in the app.component.ts 
+file in order to be able to insert or read data  
+ et ensuite les rentrer sur le fichier 
+app.component.ts
+
+
+Line 29
+```javascript
+import foobar
+this.email = ''; //UserLogin firebase Auth
+this.password = ''; //Password firebase User Auth
+```
+
+
+# AcraApp
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.8.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
 
 
 
