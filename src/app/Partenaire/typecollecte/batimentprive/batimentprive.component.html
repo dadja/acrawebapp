@@ -1,0 +1,106 @@
+<!-- <p>Bâtiment privé</p> -->
+<div style="background-color: #A2BB0C; height: 40px;">
+        <p style="color: white; position: relative; top: 7px; left: 10px" >Bâtiment privé</p>
+        </div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    
+    <th scope="col">Info</th>
+    <th scope="col">Contenu</th>
+  </tr>
+  </thead>
+  <tbody>
+        <tr >
+    
+                <td>
+                  Date
+                </td>
+                <td>{{childMarker.date}}</td>
+              </tr>
+        <tr >
+    
+                <td>
+                  Collecteur
+                </td>
+                <td>{{childMarker.collecteur}}</td>
+              </tr>
+        
+              <tr >
+            
+                    <td>
+                        Latitude
+                    </td>
+                    <td>{{childMarker.latitude}}</td>
+                </tr>
+                <tr >
+                  
+                    <td>
+                        Longitude
+                    </td>
+                    <td>{{childMarker.longitude}}</td>
+                </tr>
+  <tr >
+    
+      <td>
+          Nom Du Proprietaire
+      </td>
+      <td>{{childMarker.nomproprio}}</td>
+  </tr>
+  <tr >
+        <tr >
+    
+                <td>
+                    Numéro Du Proprietaire
+                </td>
+                <td>{{childMarker.numproprio}}</td>
+            </tr>
+        <tr >
+
+                <tr >
+    
+                        <td>
+                            Nombre d'adultes (18 - 59)
+                        </td>
+                        <td>{{childMarker.nbradultes}}</td>
+                    </tr>
+                    <tr >
+                      
+                        <td>
+                            Nombre d'enfant (0 - 17)  </td>
+                        <td>{{childMarker.nbrenfants}}</td>
+                    </tr>
+                    <tr >
+                      
+                        <td>
+                            Nombre de personnes Agées  (60 +) </td>
+                        <td>{{childMarker.nbrvieux}}</td>
+                    </tr>
+   <tr>
+      <td>
+          Robinet Existant
+      </td>
+      <!-- <td>{{childMarker.robinetexistant}}</td> -->
+      <td *ngIf="childMarker.robinetexistant !== 'false'">OUI</td>
+      <td *ngIf="childMarker.robinetexistant === 'false'">NON</td>
+  </tr>
+  <tr >
+    
+      <td>
+          Robinet fonctionnel
+      </td>
+      <!-- <td>{{childMarker.robinetfonctionnel}}</td> -->
+      <td *ngIf="childMarker.robinetfonctionnel !== 'false'">OUI</td>
+      <td *ngIf="childMarker.robinetfonctionnel === 'false'">NON</td>
+  </tr>
+  <tr >
+    
+        <td>
+            Note
+        </td>
+        <td>{{childMarker.note}}</td>
+        
+    </tr>
+  </tbody>
+</table>
+<button class="btn btn-lg btn-primary btn-block" (click)="delete(childMarker.id)"[style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   >Supprimer cette collecte</button>

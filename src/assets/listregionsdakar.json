@@ -1,0 +1,2750 @@
+{
+    "regions": [
+        {
+            "nom": "DAKAR",
+            "departements": [
+                {
+                    "nom": "DAKAR",
+                    "arrondissements": [
+                        {
+                            "nom": "AR. DAKAR  PLATEAU",
+                            "communes": [
+                                {
+                                    "nom": "CA. GOREE"
+                                },
+                                {
+                                    "nom": "CA. PLATEAU"
+                                },
+                                {
+                                    "nom": "CA. MEDINA"
+                                },
+                                {
+                                    "nom": "CA. COLOBANE/FASS/GUEULE TAPEE"
+                                },
+                                {
+                                    "nom": "CA. FANN/POINT E/ AMITIE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. GRAND  DAKAR",
+                            "communes": [
+                                {
+                                    "nom": "CA. GRAND DAKAR"
+                                },
+                                {
+                                    "nom": "CA. BISCUITERIE"
+                                },
+                                {
+                                    "nom": "CA. HLM"
+                                },
+                                {
+                                    "nom": "CA. HANN/ BEL AIR "
+                                },
+                                {
+                                    "nom": "CA. SICAP LIBERTE"
+                                },
+                                {
+                                    "nom": "CA. DIEUPPEUL DERKLE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. ALMADIES",
+                            "communes": [
+                                {
+                                    "nom": "CA. OUAKAM"
+                                },
+                                {
+                                    "nom": "CA. N’GOR"
+                                },
+                                {
+                                    "nom": "CA. YOFF"
+                                },
+                                {
+                                    "nom": "CA. MERMOZ/ SACRE -COEUR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. PARCELLES ASSAINIES",
+                            "communes": [
+                                {
+                                    "nom": "CA. GRAND YOFF"
+                                },
+                                {
+                                    "nom": "CA. PATTE D’OIE"
+                                },
+                                {
+                                    "nom": "CA. PARCELLES ASSAINIES"
+                                },
+                                {
+                                    "nom": "CA. CAMBERENE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "PIKINE",
+                    "arrondissements": [
+                        {
+                            "nom": "AR. NIAYES",
+                            "communes": [
+                                {
+                                    "nom": "CA. YEUMBEUL NORD"
+                                },
+                                {
+                                    "nom": "CA. YEUMBEUL SUD"
+                                },
+                                {
+                                    "nom": "CA. MALIKA"
+                                },
+                                {
+                                    "nom": "CA. KEUR MASSAR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. PIKINE DAGOUDANE",
+                            "communes": [
+                                {
+                                    "nom": "CA. PIKINE OUEST"
+                                },
+                                {
+                                    "nom": "CA. PIKINE EST"
+                                },
+                                {
+                                    "nom": "CA. PIKINE SUD"
+                                },
+                                {
+                                    "nom": "CA. DALIFORD"
+                                },
+                                {
+                                    "nom": "CA. DJIDAH THIAROYE KAO"
+                                },
+                                {
+                                    "nom": "CA. GUINAW RAIL NORD"
+                                },
+                                {
+                                    "nom": "CA. GUINAW RAIL SUD"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. THIAROYE",
+                            "communes": [
+                                {
+                                    "nom": "CA. THIAROYE /MER"
+                                },
+                                {
+                                    "nom": "CA. DIACK SAO"
+                                },
+                                {
+                                    "nom": "CA. DIAMAGUENE/SICAP M’BAO "
+                                },
+                                {
+                                    "nom": "CA. THIAROYE GARE"
+                                },
+                                {
+                                    "nom": "CA. M’BAO"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "RUFISQUE",
+                    "arrondissements": [
+                        {
+                            "nom": "RUFISQUE",
+                            "communes": [
+                                {
+                                    "nom": "COM. BARGNY"
+                                },
+                                {
+                                    "nom": "COM. SEBIKOTANE"
+                                },
+                                {
+                                    "nom": "COM. DIAMNIADIO"
+                                },
+                                {
+                                    "nom": "COM. SANGALKAM"
+                                },
+                                {
+                                    "nom": "COM. SENDOU"
+                                },
+                                {
+                                    "nom": "COM. JAXAAY PARCELLE NIAKOUL RAP"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. BAMBYLOR",
+                            "communes": [
+                                {
+                                    "nom": "CR. YENE"
+                                },
+                                {
+                                    "nom": "CR. BAMBYLOR"
+                                },
+                                {
+                                    "nom": "CR. TIVAOUANE PEULH-NIAGHA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. RUFISQUE",
+                            "communes": [
+                                {
+                                    "nom": "CA. RUFISQUE CENTRE"
+                                },
+                                {
+                                    "nom": "CA. RUFISQUE  EST"
+                                },
+                                {
+                                    "nom": "CA. RUFISQUE OUEST"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "GUEDIAWAYE",
+                    "arrondissements": [
+                        {
+                            "nom": "AR. GUEDIAWAYE",
+                            "communes": [
+                                {
+                                    "nom": "CA.  GOLF SUD"
+                                },
+                                {
+                                    "nom": "CA.  SAM    NOTAIRE"
+                                },
+                                {
+                                    "nom": "CA.  N’ DIAREME LIMAMOULAYE"
+                                },
+                                {
+                                    "nom": "CA.  WAKHINANE NIMZATT"
+                                },
+                                {
+                                    "nom": "CA.  MEDINA GOUNASS"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "ZIGUINCHOR",
+            "departements": [
+                {
+                    "nom": "BIGNONA",
+                    "arrondissements": [
+                        {
+                            "nom": "BIGNONA",
+                            "communes": [
+                                {
+                                    "nom": "COM. BIGNONA"
+                                },
+                                {
+                                    "nom": "COM. THIONCK-ESSYL"
+                                },
+                                {
+                                    "nom": "COM. DIOULOULOU"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SINDIAN",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DJIBIDIONE"
+                                },
+                                {
+                                    "nom": "CR.  OULAMPANE"
+                                },
+                                {
+                                    "nom": "CR.  SINDIAN"
+                                },
+                                {
+                                    "nom": "CR.  SUELLE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. TENDOUCK",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BALINGORE"
+                                },
+                                {
+                                    "nom": "CR.  DIEGOUNE"
+                                },
+                                {
+                                    "nom": "CR.  KARTHIACK"
+                                },
+                                {
+                                    "nom": "CR.  MANGAGOULACK"
+                                },
+                                {
+                                    "nom": "CR.  MLOMP"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. TENGHORY",
+                            "communes": [
+                                {
+                                    "nom": "CR.  COUBALAN"
+                                },
+                                {
+                                    "nom": "CR.  NIAMONE"
+                                },
+                                {
+                                    "nom": "CR.  OUONCK"
+                                },
+                                {
+                                    "nom": "CR.  TENGHORY"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. KATABA I",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DJINAKI"
+                                },
+                                {
+                                    "nom": "CR.  KAFOUNTINE"
+                                },
+                                {
+                                    "nom": "CR.  KATABA I"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "OUSSOUYE",
+                    "arrondissements": [
+                        {
+                            "nom": "OUSSOUYE",
+                            "communes": [
+                                {
+                                    "nom": "COM. OUSSOUYE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. CABROUSSE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DJEMBERING"
+                                },
+                                {
+                                    "nom": "CR.  SANTHIABA MANJACQUE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. LOUDIA OUOLOF",
+                            "communes": [
+                                {
+                                    "nom": "CR.  MLOMP"
+                                },
+                                {
+                                    "nom": "CR.  OUKOUT"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "ZIGUINCHOR",
+                    "arrondissements": [
+                        {
+                            "nom": "ZIGUINCHOR",
+                            "communes": [
+                                {
+                                    "nom": "COM. ZIGUINCHOR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. NIAGUIS",
+                            "communes": [
+                                {
+                                    "nom": "CR.  ADEANE"
+                                },
+                                {
+                                    "nom": "CR.  BOUTOUPA CAMAR"
+                                },
+                                {
+                                    "nom": "CR.  NIAGUIS"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. NYASSIA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  ENAMPORE"
+                                },
+                                {
+                                    "nom": "CR.  NYASSIA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "DIOURBEL",
+            "departements": [
+                {
+                    "nom": "BAMBEY",
+                    "arrondissements": [
+                        {
+                            "nom": "BAMBEY",
+                            "communes": [
+                                {
+                                    "nom": "COM. BAMBEY"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. BABA GARAGE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BABA GARAGE"
+                                },
+                                {
+                                    "nom": "CR.  DINGUIRAYE"
+                                },
+                                {
+                                    "nom": "CR.  K. SAMBA KANE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. LAMBAYE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  GAWANE"
+                                },
+                                {
+                                    "nom": "CR.  LAMBAYE"
+                                },
+                                {
+                                    "nom": "CR.  N’GOGOM"
+                                },
+                                {
+                                    "nom": "CR.  REFANE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. N’GOYE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DANGALMA"
+                                },
+                                {
+                                    "nom": "CR.  N’DONDOL"
+                                },
+                                {
+                                    "nom": "CR.  N’GOYE"
+                                },
+                                {
+                                    "nom": "CR.  THIAKAR"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "DIOURBEL",
+                    "arrondissements": [
+                        {
+                            "nom": "DIOURBEL",
+                            "communes": [
+                                {
+                                    "nom": "COM. DIOURBEL"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. N’DINDY",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DANKH  SENE"
+                                },
+                                {
+                                    "nom": "CR.  GADE ESCALE"
+                                },
+                                {
+                                    "nom": "CR.  N’DINDY"
+                                },
+                                {
+                                    "nom": "CR.  KEUR N’GALGOU"
+                                },
+                                {
+                                    "nom": "CR.  TAIBA MOUTOUPHA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. N’DOULO",
+                            "communes": [
+                                {
+                                    "nom": "CR.  N’DOULO"
+                                },
+                                {
+                                    "nom": "CR.  N’GOHE"
+                                },
+                                {
+                                    "nom": "CR.  PATAR"
+                                },
+                                {
+                                    "nom": "CR.  TOCKY GARE "
+                                },
+                                {
+                                    "nom": "CR.  TOURE M’BONDE "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "M’BACKE",
+                    "arrondissements": [
+                        {
+                            "nom": "M’BACKE",
+                            "communes": [
+                                {
+                                    "nom": "COM. M’BACKE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. KAEL",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DENDEYE GOUYE GUI"
+                                },
+                                {
+                                    "nom": "CR.  DAROU SALAM  TYP"
+                                },
+                                {
+                                    "nom": "CR.  KAEL"
+                                },
+                                {
+                                    "nom": "CR.  MADINA"
+                                },
+                                {
+                                    "nom": "CR.  N’DIOUMANE  T. THIEKENE"
+                                },
+                                {
+                                    "nom": "CR.  TOUBA  M’BOUL"
+                                },
+                                {
+                                    "nom": "CR.  DAROU NAHIM"
+                                },
+                                {
+                                    "nom": "CR.  TAIBA TIECKENE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. N’DAME",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DALLA N’GABOU"
+                                },
+                                {
+                                    "nom": "CR.  MISSIRAH"
+                                },
+                                {
+                                    "nom": "CR.  N’GHAYE"
+                                },
+                                {
+                                    "nom": "CR.  TOUBA FALL "
+                                },
+                                {
+                                    "nom": "CR.  TOUBA MOSQUEE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. TAIF ",
+                            "communes": [
+                                {
+                                    "nom": "CR.  SADIO"
+                                },
+                                {
+                                    "nom": "CR.  TAÏF"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "SAINT-LOUIS",
+            "departements": [
+                {
+                    "nom": "DAGANA",
+                    "arrondissements": [
+                        {
+                            "nom": "DAGANA",
+                            "communes": [
+                                {
+                                    "nom": "COM. DAGANA"
+                                },
+                                {
+                                    "nom": "COM. RICHARD-TOLL"
+                                },
+                                {
+                                    "nom": "COM. ROSSO-SENEGAL"
+                                },
+                                {
+                                    "nom": "COM. ROSS-BETHIO "
+                                },
+                                {
+                                    "nom": "COM. GAE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. MBANE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  MBANE"
+                                },
+                                {
+                                    "nom": "CR.  BOKHOL"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. NDIAYE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DIAMA"
+                                },
+                                {
+                                    "nom": "CR.  NGNITH"
+                                },
+                                {
+                                    "nom": "CR.  RONKH"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "PODOR",
+                    "arrondissements": [
+                        {
+                            "nom": "PODOR",
+                            "communes": [
+                                {
+                                    "nom": "COM. PODOR"
+                                },
+                                {
+                                    "nom": "COM. NDIOUM"
+                                },
+                                {
+                                    "nom": "COM. GOLLERE"
+                                },
+                                {
+                                    "nom": "COM. NDIANDANE"
+                                },
+                                {
+                                    "nom": "COM. BODE LAO"
+                                },
+                                {
+                                    "nom": "COM. DEMETTE"
+                                },
+                                {
+                                    "nom": "COM. GALOYA TOUCOULEUR"
+                                },
+                                {
+                                    "nom": "COM. GUEDE CHANTIER"
+                                },
+                                {
+                                    "nom": "COM. MBOUMBA"
+                                },
+                                {
+                                    "nom": "COM. AERE LAO"
+                                },
+                                {
+                                    "nom": "COM. PETE"
+                                },
+                                {
+                                    "nom": "COM. WALALDE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. CAS-CAS",
+                            "communes": [
+                                {
+                                    "nom": "CR.  MEDINA NDIATHBE"
+                                },
+                                {
+                                    "nom": "CR.  DOUNGA-LAO"
+                                },
+                                {
+                                    "nom": "CR.  MERY"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SALDE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BOKE DIALLOUBE"
+                                },
+                                {
+                                    "nom": "CR.  MBOLO BIRANE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. THILLE BOUBACAR",
+                            "communes": [
+                                {
+                                    "nom": "CR.  FANAYE"
+                                },
+                                {
+                                    "nom": "CR.  NDIAYENE PENDAO"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. GAMADJI SARE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DODEL"
+                                },
+                                {
+                                    "nom": "CR.  GAMADJI SARE"
+                                },
+                                {
+                                    "nom": "CR.  GUEDE VILLAGE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "SAINT LOUIS",
+                    "arrondissements": [
+                        {
+                            "nom": "SAINT LOUIS",
+                            "communes": [
+                                {
+                                    "nom": "COM. SAINT LOUIS"
+                                },
+                                {
+                                    "nom": "COM. M’PAL"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. RAO",
+                            "communes": [
+                                {
+                                    "nom": "CR.  GANDON"
+                                },
+                                {
+                                    "nom": "CR.  FASS NGOM"
+                                },
+                                {
+                                    "nom": "CR.  N’DIEBENE GANDIOLE"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "TAMBACOUNDA",
+            "departements": [
+                {
+                    "nom": "BAKEL",
+                    "arrondissements": [
+                        {
+                            "nom": "BAKEL",
+                            "communes": [
+                                {
+                                    "nom": "COM. BAKEL"
+                                },
+                                {
+                                    "nom": "COM. DIAWARA"
+                                },
+                                {
+                                    "nom": "COM .KIDIRA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. KENIEBA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  GATHIARY"
+                                },
+                                {
+                                    "nom": "CR.  MADINA FOULBE"
+                                },
+                                {
+                                    "nom": "CR.  SADATOU"
+                                },
+                                {
+                                    "nom": "CR.  TOUMBOURA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. BELE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BELE"
+                                },
+                                {
+                                    "nom": "CR.  SINTHIOU-FISSA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. MOUDERY",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BALLOU"
+                                },
+                                {
+                                    "nom": "CR.  GABOU"
+                                },
+                                {
+                                    "nom": "CR.  MOUDERY"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "TAMBACOUNDA",
+                    "arrondissements": [
+                        {
+                            "nom": "TAMBACOUNDA",
+                            "communes": [
+                                {
+                                    "nom": "COM. TAMBACOUNDA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. KOUSSANAR",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KOUSSANAR"
+                                },
+                                {
+                                    "nom": "CR.  SINTHIOU MALEM"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. MAKACOULIBANTANG",
+                            "communes": [
+                                {
+                                    "nom": "CR.  MAKACOULIBATANG"
+                                },
+                                {
+                                    "nom": "CR.  N’DOGA BABACAR"
+                                },
+                                {
+                                    "nom": "CR.  NIANI TOUCOULEUR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. MISSIRAH",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DIALACOTO"
+                                },
+                                {
+                                    "nom": "CR.  MISSIRAH"
+                                },
+                                {
+                                    "nom": "CR.  NETTE BOULOU"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "GOUDIRY",
+                    "arrondissements": [
+                        {
+                            "nom": "GOUDIRY",
+                            "communes": [
+                                {
+                                    "nom": "COM. GOUDIRY"
+                                },
+                                {
+                                    "nom": "COM. KOTHIARY"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. BALA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BALA"
+                                },
+                                {
+                                    "nom": "CR.  GOUMBAYEL"
+                                },
+                                {
+                                    "nom": "CR.  KOAR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. BOYNGUEL BAMBA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DOUGUE"
+                                },
+                                {
+                                    "nom": "CR.  BOYNGUEL BAMBA"
+                                },
+                                {
+                                    "nom": "CR.  KOUSSAN"
+                                },
+                                {
+                                    "nom": "CR.  SINTHIOU MAMADOU BOUBOU"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DIANKE MAKHA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BANI   ISRAEL"
+                                },
+                                {
+                                    "nom": "CR.  BOUTOUCOUFARA"
+                                },
+                                {
+                                    "nom": "CR.  DIANKE MAKHA"
+                                },
+                                {
+                                    "nom": "CR.  KOMOTI"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. KOULOR",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KOULOR"
+                                },
+                                {
+                                    "nom": "CR.  SINTHIOU BOCAR ALI"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "KOUPENTOUM",
+                    "arrondissements": [
+                        {
+                            "nom": "KOUPENTOUM",
+                            "communes": [
+                                {
+                                    "nom": "COM. KOUMPENTOUM"
+                                },
+                                {
+                                    "nom": "COM. MALEM NIANI"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. BAMBA  THIALENE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BAMBA  THIALENE"
+                                },
+                                {
+                                    "nom": "CR.  KAHENE"
+                                },
+                                {
+                                    "nom": "CR.  MERETO"
+                                },
+                                {
+                                    "nom": "CR.  N’DAME"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. KOUTHIABA WOLOF",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KOUTHIA GAYDI"
+                                },
+                                {
+                                    "nom": "CR.  KOUTHIABA WOLOF"
+                                },
+                                {
+                                    "nom": "CR.  PASS KOTO"
+                                },
+                                {
+                                    "nom": "CR.  PAYAR"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "KAOLACK",
+            "departements": [
+                {
+                    "nom": "KAOLACK",
+                    "arrondissements": [
+                        {
+                            "nom": "KAOLACK",
+                            "communes": [
+                                {
+                                    "nom": "COM. KAOLACK"
+                                },
+                                {
+                                    "nom": "COM. KAHONE"
+                                },
+                                {
+                                    "nom": "COM. GANDIAYE"
+                                },
+                                {
+                                    "nom": "COM. NDOFFANE"
+                                },
+                                {
+                                    "nom": "COM. SIBASSOR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. NDIEDIENG",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KEUR SOCE"
+                                },
+                                {
+                                    "nom": "CR.  NDIAFFATE"
+                                },
+                                {
+                                    "nom": "CR.  NDIEDIENG"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. KOUMBAL",
+                            "communes": [
+                                {
+                                    "nom": "CR.  LATMINGUE"
+                                },
+                                {
+                                    "nom": "CR.  THIARE"
+                                },
+                                {
+                                    "nom": "CR.  KEUR BAKA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SIBASSOR",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DYA"
+                                },
+                                {
+                                    "nom": "CR.  NDIEBEL"
+                                },
+                                {
+                                    "nom": "CR.  THIOMBY"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "NIORO",
+                    "arrondissements": [
+                        {
+                            "nom": "NIORO",
+                            "communes": [
+                                {
+                                    "nom": "COM. NIORO"
+                                },
+                                {
+                                    "nom": "COM. KEUR MADIABEL"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. MEDINA-SABAKH",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KAYEMOR"
+                                },
+                                {
+                                    "nom": "CR.  MEDINA-SABAKH"
+                                },
+                                {
+                                    "nom": "CR.  NGAYENE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. PAOSKOTO",
+                            "communes": [
+                                {
+                                    "nom": "CR.  GAINTE KAYE"
+                                },
+                                {
+                                    "nom": "CR.  PAOSKOTO"
+                                },
+                                {
+                                    "nom": "CR.  POROKHANE"
+                                },
+                                {
+                                    "nom": "CR.  TAÏBA NIASSENE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. WACK-NGOUNA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KEUR MABA DIAKHOU"
+                                },
+                                {
+                                    "nom": "CR.  NDRAME ESCALE"
+                                },
+                                {
+                                    "nom": "CR.  WACK NGOUNA"
+                                },
+                                {
+                                    "nom": "CR.  K. MANDONGO"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "GUINGUINEO",
+                    "arrondissements": [
+                        {
+                            "nom": "GUINGUINEO",
+                            "communes": [
+                                {
+                                    "nom": "COM. GUINGUINEO"
+                                },
+                                {
+                                    "nom": "COM. FASS"
+                                },
+                                {
+                                    "nom": "COM.  MBOSS"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. MBADAKHOUNE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  MBADAKHOUNE"
+                                },
+                                {
+                                    "nom": "CR.  NDIAGO"
+                                },
+                                {
+                                    "nom": "CR.  NGATHIE NAOUDE"
+                                },
+                                {
+                                    "nom": "CR.  KHELCOM BIRAME"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. NGUELOU",
+                            "communes": [
+                                {
+                                    "nom": "CR.  GAGNICK"
+                                },
+                                {
+                                    "nom": "CR.  NGUELOU"
+                                },
+                                {
+                                    "nom": "CR.  OUROUR"
+                                },
+                                {
+                                    "nom": "CR.  DARA MBOSS"
+                                },
+                                {
+                                    "nom": "CR.  PANAL OUOLOF"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "THIES",
+            "departements": [
+                {
+                    "nom": "M’BOUR",
+                    "arrondissements": [
+                        {
+                            "nom": "M’BOUR",
+                            "communes": [
+                                {
+                                    "nom": "COM. JOAL- FADIOUTH"
+                                },
+                                {
+                                    "nom": "COM. M’BOUR"
+                                },
+                                {
+                                    "nom": "COM. GUEKOKH"
+                                },
+                                {
+                                    "nom": "COM. THIADIAYE"
+                                },
+                                {
+                                    "nom": "COM. N’GAPAROU"
+                                },
+                                {
+                                    "nom": "COM. POPOGUINE"
+                                },
+                                {
+                                    "nom": "COM. SALY PORTUDAL"
+                                },
+                                {
+                                    "nom": "COM. SOMONE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. FISSEL",
+                            "communes": [
+                                {
+                                    "nom": "CR.  FISSEL"
+                                },
+                                {
+                                    "nom": "CR.  N’DIAGANIAO"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SESSENE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  N’GUENIENE"
+                                },
+                                {
+                                    "nom": "CR.  SANDIARA"
+                                },
+                                {
+                                    "nom": "CR.  SESSENE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SINDIA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  MALICOUNDA"
+                                },
+                                {
+                                    "nom": "CR.  DIASS"
+                                },
+                                {
+                                    "nom": "CR.  SINDIA"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "THIES",
+                    "arrondissements": [
+                        {
+                            "nom": "AR THIES NORD",
+                            "communes": [
+                                {
+                                    "nom": "CA. THIES NORD"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR THIES SUD",
+                            "communes": [
+                                {
+                                    "nom": "CA. THIES EST"
+                                },
+                                {
+                                    "nom": "CA. THIES OUEST"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "THIES",
+                            "communes": [
+                                {
+                                    "nom": "COM. KHOMBOLE"
+                                },
+                                {
+                                    "nom": "COM. POUT"
+                                },
+                                {
+                                    "nom": "COM. CAYAR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. NOTTO",
+                            "communes": [
+                                {
+                                    "nom": "CR.  NOTTO"
+                                },
+                                {
+                                    "nom": "CR.  TASSETTE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. THIENABA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  N’DIEYENE SIRAKH"
+                                },
+                                {
+                                    "nom": "CR.  N’GOUNDIANE"
+                                },
+                                {
+                                    "nom": "CR.  THIENABA"
+                                },
+                                {
+                                    "nom": "CR.  TOUBA TOUL"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. KEUR MOUSSA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DIENDER GUEDJI"
+                                },
+                                {
+                                    "nom": "CR.  FANDENE"
+                                },
+                                {
+                                    "nom": "CR.  KEUR MOUSSA"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "TIVAOUANE",
+                    "arrondissements": [
+                        {
+                            "nom": "TIVAOUANE",
+                            "communes": [
+                                {
+                                    "nom": "COM. MEKHE"
+                                },
+                                {
+                                    "nom": "COM. TIVAOUANE"
+                                },
+                                {
+                                    "nom": "COM. M’BORO"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. MEOUANE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  MEOUANE"
+                                },
+                                {
+                                    "nom": "CR.  TAIBA N’DIAYE"
+                                },
+                                {
+                                    "nom": "CR.  DAROU KHOUDOSS"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. MERINA-DAKHAR ",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KOUL"
+                                },
+                                {
+                                    "nom": "CR.  MERINA DAKHAR"
+                                },
+                                {
+                                    "nom": "CR.  PEKESSE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. NIAKHENE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  M’BAYENE"
+                                },
+                                {
+                                    "nom": "CR.  N’GANDIOUF"
+                                },
+                                {
+                                    "nom": "CR.  NIAKHENE"
+                                },
+                                {
+                                    "nom": "CR.  THILMAKHA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. PAMBAL",
+                            "communes": [
+                                {
+                                    "nom": "CR.  CHERIF LÖ"
+                                },
+                                {
+                                    "nom": "CR.  MONT- ROLLAND"
+                                },
+                                {
+                                    "nom": "CR.  NOTTO GOUYE DIAMA"
+                                },
+                                {
+                                    "nom": "CR.  PIRE GOUREYE"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "LOUGA",
+            "departements": [
+                {
+                    "nom": "KEBEMER",
+                    "arrondissements": [
+                        {
+                            "nom": "KEBEMER",
+                            "communes": [
+                                {
+                                    "nom": "COM. KEBEMER"
+                                },
+                                {
+                                    "nom": "COM. GUEOUL"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DAROU MOUSTY",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DAROU MARNANE"
+                                },
+                                {
+                                    "nom": "CR.  DAROU MOUSTY"
+                                },
+                                {
+                                    "nom": "CR.  MBADIANE"
+                                },
+                                {
+                                    "nom": "CR.  NDOYENE"
+                                },
+                                {
+                                    "nom": "CR.  SAM YABAL"
+                                },
+                                {
+                                    "nom": "CR.  TOUBA MERINA"
+                                },
+                                {
+                                    "nom": "CR.  MBACKE CADIOR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. NDANDE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BADEGNE OUOLOF"
+                                },
+                                {
+                                    "nom": "CR.  DIOKOUL DIAWRIGNE"
+                                },
+                                {
+                                    "nom": "CR.  KAB GAYE"
+                                },
+                                {
+                                    "nom": "CR.  NDANDE"
+                                },
+                                {
+                                    "nom": "CR.  THIEPPE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SAGATTA GUETH",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KANENE NDIOB"
+                                },
+                                {
+                                    "nom": "CR.  LORO"
+                                },
+                                {
+                                    "nom": "CR.  SAGATTA GUETH"
+                                },
+                                {
+                                    "nom": "CR.  THIOLOM FALL"
+                                },
+                                {
+                                    "nom": "CR.  NGOURANE OUOLOF"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "LINGUERE",
+                    "arrondissements": [
+                        {
+                            "nom": "LINGUERE",
+                            "communes": [
+                                {
+                                    "nom": "COM. LINGUERE"
+                                },
+                                {
+                                    "nom": "COM. DAHRA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. BARKEDJI",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BARKEDJI"
+                                },
+                                {
+                                    "nom": "CR.  GASSANE"
+                                },
+                                {
+                                    "nom": "CR.  THIARGNY"
+                                },
+                                {
+                                    "nom": "CR.  THIEL"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DODJI",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DODJI"
+                                },
+                                {
+                                    "nom": "CR.  LABGAR"
+                                },
+                                {
+                                    "nom": "CR.  OUARKHOH"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. YANG YANG",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KAMB"
+                                },
+                                {
+                                    "nom": "CR.  MBEULEUKHE"
+                                },
+                                {
+                                    "nom": "CR.  MBOULA"
+                                },
+                                {
+                                    "nom": "CR.  TESSEKRE FORAGE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SAGATTA DJOLOF",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BOULAL"
+                                },
+                                {
+                                    "nom": "CR.  DEALI"
+                                },
+                                {
+                                    "nom": "CR.  SAGATTA DJOLOF"
+                                },
+                                {
+                                    "nom": "CR.  THIAMENE DJOLOF"
+                                },
+                                {
+                                    "nom": "CR.  AFFE DJOLOFF"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "LOUGA",
+                    "arrondissements": [
+                        {
+                            "nom": "LOUGA",
+                            "communes": [
+                                {
+                                    "nom": "COM. LOUGA"
+                                },
+                                {
+                                    "nom": "COM. NDIAGNE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. COKI",
+                            "communes": [
+                                {
+                                    "nom": "CR.  COKI"
+                                },
+                                {
+                                    "nom": "CR.  PETE OUARACK"
+                                },
+                                {
+                                    "nom": "CR.  THIAMENE CAYOR"
+                                },
+                                {
+                                    "nom": "CR.  GUET ARDO"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. K EUR MOMAR SARR",
+                            "communes": [
+                                {
+                                    "nom": "CR.  GANDE"
+                                },
+                                {
+                                    "nom": "CR.  K.MOMAR SARR"
+                                },
+                                {
+                                    "nom": "CR.  NGUER MALAL"
+                                },
+                                {
+                                    "nom": "CR.  SYER"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. MBEDIENE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KELLE GUEYE"
+                                },
+                                {
+                                    "nom": "CR.  MBEDIENE"
+                                },
+                                {
+                                    "nom": "CR.  NGUIDILE"
+                                },
+                                {
+                                    "nom": "CR.  NIOMRE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SAKAL",
+                            "communes": [
+                                {
+                                    "nom": "CR.  LEONA"
+                                },
+                                {
+                                    "nom": "CR.  NGUEUNE SARR"
+                                },
+                                {
+                                    "nom": "CR.  SAKAL"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "FATICK",
+            "departements": [
+                {
+                    "nom": "FATICK",
+                    "arrondissements": [
+                        {
+                            "nom": "FATICK",
+                            "communes": [
+                                {
+                                    "nom": "COM. FATICK"
+                                },
+                                {
+                                    "nom": "COM. DIOFIOR"
+                                },
+                                {
+                                    "nom": "COM. DIAKHAO"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. NDIOB",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DIAOULE"
+                                },
+                                {
+                                    "nom": "CR.  MBELACADIAO"
+                                },
+                                {
+                                    "nom": "CR.  NDIOB"
+                                },
+                                {
+                                    "nom": "CR.  THIARE  NDIALGUI"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. FIMELA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  FIMELA"
+                                },
+                                {
+                                    "nom": "CR.  LOUL-SESSENE"
+                                },
+                                {
+                                    "nom": "CR.  PALMARIN FACAO"
+                                },
+                                {
+                                    "nom": "CR.  DJILASSE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. NIAKHAR",
+                            "communes": [
+                                {
+                                    "nom": "CR.  NGAYOKHEME"
+                                },
+                                {
+                                    "nom": "CR.  NIAKHAR"
+                                },
+                                {
+                                    "nom": "CR.  PATAR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. TATTAGUINE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DIARERE"
+                                },
+                                {
+                                    "nom": "CR.  DIOUROUP"
+                                },
+                                {
+                                    "nom": "CR.  TATTAGUINE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "FOUNDIOUGNE",
+                    "arrondissements": [
+                        {
+                            "nom": "FOUNDIOUGNE",
+                            "communes": [
+                                {
+                                    "nom": "COM. FOUNDIOUGNE"
+                                },
+                                {
+                                    "nom": "COM. SOKONE"
+                                },
+                                {
+                                    "nom": "COM. PASSY"
+                                },
+                                {
+                                    "nom": "COM. KARANG POSTE"
+                                },
+                                {
+                                    "nom": "COM. SOUM"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DJILOR",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DJILOR"
+                                },
+                                {
+                                    "nom": "CR.  DIOSSONG"
+                                },
+                                {
+                                    "nom": "CR.  DIAGUANE BARKA"
+                                },
+                                {
+                                    "nom": "CR.  MBAM"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. NIODIOR",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BASSOUL"
+                                },
+                                {
+                                    "nom": "CR.  DIONEWAR"
+                                },
+                                {
+                                    "nom": "CR.  DJIRNDA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. TOUBACOUTA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KEUR S.DIANE"
+                                },
+                                {
+                                    "nom": "CR.  KEUR  SAMBA GUEYE"
+                                },
+                                {
+                                    "nom": "CR.  NIORO ALASSANE TALL"
+                                },
+                                {
+                                    "nom": "CR.  TOUBACOUTA"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "GOSSAS",
+                    "arrondissements": [
+                        {
+                            "nom": "GOSSAS",
+                            "communes": [
+                                {
+                                    "nom": "COM. GOSSAS"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. COLOBANE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  COLOBANE"
+                                },
+                                {
+                                    "nom": "CR.  MBAR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. OUADIOUR",
+                            "communes": [
+                                {
+                                    "nom": "CR.  NDIENE LAGANE"
+                                },
+                                {
+                                    "nom": "CR.  OUADIOUR"
+                                },
+                                {
+                                    "nom": "CR.  PATAR LIA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "KOLDA",
+            "departements": [
+                {
+                    "nom": "KOLDA",
+                    "arrondissements": [
+                        {
+                            "nom": "KOLDA",
+                            "communes": [
+                                {
+                                    "nom": "COM. KOLDA"
+                                },
+                                {
+                                    "nom": "COM. DABO"
+                                },
+                                {
+                                    "nom": "COM. SALIKEGNE"
+                                },
+                                {
+                                    "nom": "COM. SARE YOBA DIEGA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DIOULACOLON",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DIOULACOLON"
+                                },
+                                {
+                                    "nom": "CR.  MEDINA  EL HADJI"
+                                },
+                                {
+                                    "nom": "CR.  TANKANTO ESCALE"
+                                },
+                                {
+                                    "nom": "CR.  GUIRO YERO BOCAR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. MAMPATIM",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BAGADADJI"
+                                },
+                                {
+                                    "nom": "CR.  COUMBACARA"
+                                },
+                                {
+                                    "nom": "CR.  MAMPATIM"
+                                },
+                                {
+                                    "nom": "CR.  DIALAMBERE"
+                                },
+                                {
+                                    "nom": "CR.  MEDINA CHERIF"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SARE BIDJI",
+                            "communes": [
+                                {
+                                    "nom": "CR.  SARE BIDJI"
+                                },
+                                {
+                                    "nom": "CR.  THIETTY"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "VELINGARA",
+                    "arrondissements": [
+                        {
+                            "nom": "VELINGARA",
+                            "communes": [
+                                {
+                                    "nom": "COM. VELINGARA"
+                                },
+                                {
+                                    "nom": "COM. DIAOUBE- KABENDOU"
+                                },
+                                {
+                                    "nom": "COM. KOUNKANE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. BONCONTO",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BONCONTO"
+                                },
+                                {
+                                    "nom": "CR.  LINKERING"
+                                },
+                                {
+                                    "nom": "CR.  MEDINA GOUNASS"
+                                },
+                                {
+                                    "nom": "CR.  SINTHIANG  KOUNDARA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. PAKOUR",
+                            "communes": [
+                                {
+                                    "nom": "CR.  OUASSADOU"
+                                },
+                                {
+                                    "nom": "CR.  PAROUMBA"
+                                },
+                                {
+                                    "nom": "CR.  PAKOUR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SARE COLY SALLE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KANDIA"
+                                },
+                                {
+                                    "nom": "CR.  SARE COLY SALLE"
+                                },
+                                {
+                                    "nom": "CR.  NEMATABA"
+                                },
+                                {
+                                    "nom": "CR.  KANDIAYE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "MEDINA YORO FOULAH",
+                    "arrondissements": [
+                        {
+                            "nom": "MEDINA YORO FOULAH",
+                            "communes": [
+                                {
+                                    "nom": "COM. MEDINA YORO FOULAH"
+                                },
+                                {
+                                    "nom": "COM. PATA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. FAFACOUROU",
+                            "communes": [
+                                {
+                                    "nom": "CR.  FAFACOUROU"
+                                },
+                                {
+                                    "nom": "CR.  BADION"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR.NDORNA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  NDORNA"
+                                },
+                                {
+                                    "nom": "CR.  BIGNARABE"
+                                },
+                                {
+                                    "nom": "CR.  BOUROUCO"
+                                },
+                                {
+                                    "nom": "CR.  KOULINTO"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. NIAMING",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DINGUIRAYE"
+                                },
+                                {
+                                    "nom": "CR.  KEREWANE"
+                                },
+                                {
+                                    "nom": "CR.  NIAMING"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "MATAM",
+            "departements": [
+                {
+                    "nom": "MATAM",
+                    "arrondissements": [
+                        {
+                            "nom": "MATAM",
+                            "communes": [
+                                {
+                                    "nom": "COM .MATAM"
+                                },
+                                {
+                                    "nom": "COM. OUROSSOGUI"
+                                },
+                                {
+                                    "nom": "COM. THILOGNE"
+                                },
+                                {
+                                    "nom": "COM. NGUIDILOGNE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. AGNAM-CIVOL",
+                            "communes": [
+                                {
+                                    "nom": "CR.  AGNAM-CIVOL"
+                                },
+                                {
+                                    "nom": "CR.  OREFONDE"
+                                },
+                                {
+                                    "nom": "CR.  DABIA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. OGO",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BOKIDIAWE"
+                                },
+                                {
+                                    "nom": "CR.  NABADJI-CIVOL"
+                                },
+                                {
+                                    "nom": "CR.  OGO"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "KANEL",
+                    "arrondissements": [
+                        {
+                            "nom": "KANEL",
+                            "communes": [
+                                {
+                                    "nom": "COM. KANEL"
+                                },
+                                {
+                                    "nom": "COM. SEMME"
+                                },
+                                {
+                                    "nom": "COM. WAOUNDE"
+                                },
+                                {
+                                    "nom": "COM. DEMBANCANE"
+                                },
+                                {
+                                    "nom": "COM. HAMADY OUNARE"
+                                },
+                                {
+                                    "nom": "COM. SINTHIOU BAMANBE-BANADJI"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. ORKADIERE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BOKILADJI"
+                                },
+                                {
+                                    "nom": "CR.  ORKADIERE"
+                                },
+                                {
+                                    "nom": "CR.  AOURE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. OURO SIDY",
+                            "communes": [
+                                {
+                                    "nom": "CR.  NDENDORY"
+                                },
+                                {
+                                    "nom": "CR.  OURO SIDY"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "RANEROU",
+                    "arrondissements": [
+                        {
+                            "nom": "RANEROU",
+                            "communes": [
+                                {
+                                    "nom": "COM. RANEROU"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. VELINGARA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  LOUGRE-THIOLY"
+                                },
+                                {
+                                    "nom": "CR.  VELINGARA"
+                                },
+                                {
+                                    "nom": "CR.  OUDALAYE"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "KAFFRINE",
+            "departements": [
+                {
+                    "nom": "KAFFRINE",
+                    "arrondissements": [
+                        {
+                            "nom": "KAFFRINE",
+                            "communes": [
+                                {
+                                    "nom": "COM. KAFFRINE"
+                                },
+                                {
+                                    "nom": "COM. N’GANDA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. GNIBY",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BOULEL"
+                                },
+                                {
+                                    "nom": "CR.  GNIBY"
+                                },
+                                {
+                                    "nom": "CR.  KAHI"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. KATAKEL",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DIOKOUL M’BELBOUCK"
+                                },
+                                {
+                                    "nom": "CR.  KATHIOTE"
+                                },
+                                {
+                                    "nom": "CR.  MEDINATOUL SALAM 2"
+                                },
+                                {
+                                    "nom": "CR.  DIAMAGADIO"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "BIRKELANE",
+                    "arrondissements": [
+                        {
+                            "nom": "BIRKELANE",
+                            "communes": [
+                                {
+                                    "nom": "COM. BIRKELANE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. KEUR M’BOUKI",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KEUR M’BOUKI"
+                                },
+                                {
+                                    "nom": "CR.  TOUBA M’BELLA"
+                                },
+                                {
+                                    "nom": "CR.  DIAMAL"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. MABO",
+                            "communes": [
+                                {
+                                    "nom": "CR.  MABO"
+                                },
+                                {
+                                    "nom": "CR.  N’DIOGNICK"
+                                },
+                                {
+                                    "nom": "CR.  MBEULEUP"
+                                },
+                                {
+                                    "nom": "CR.  SEGRE GATTA"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "KOUNGHEUL",
+                    "arrondissements": [
+                        {
+                            "nom": "KOUNGHEUL",
+                            "communes": [
+                                {
+                                    "nom": "COM. KOUNGHEUL"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. IDA MOURIDE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  SALY ESCALE"
+                                },
+                                {
+                                    "nom": "CR.  FASS THIEKENE"
+                                },
+                                {
+                                    "nom": "CR.  IDA MOURIDE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. LOUR ESCALE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  LOUR ESCALE"
+                                },
+                                {
+                                    "nom": "CR.  RIBOT ESCALE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. MISSIRAH WADENE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  GAINTHE PATHE"
+                                },
+                                {
+                                    "nom": "CR.  MAKA YOP"
+                                },
+                                {
+                                    "nom": "CR.  MISSIRAH WADENE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "MALEM HODDAR",
+                    "arrondissements": [
+                        {
+                            "nom": "MALEM HODDAR",
+                            "communes": [
+                                {
+                                    "nom": "COM. MALEM HODDAR"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DAROU MINAM II",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DAROU MINAM II"
+                                },
+                                {
+                                    "nom": "CR.  N’DIOUM  N’GAINTH"
+                                },
+                                {
+                                    "nom": "CR.  KHELCOM"
+                                },
+                                {
+                                    "nom": "CR.  NDIOBENE SAMBA LAMO"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SAGNA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DIANKE SOUF"
+                                },
+                                {
+                                    "nom": "CR.  SAGNA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "KEDOUGOU",
+            "departements": [
+                {
+                    "nom": "KEDOUGOU",
+                    "arrondissements": [
+                        {
+                            "nom": "KEDOUGOU",
+                            "communes": [
+                                {
+                                    "nom": "COM .KEDOUGOU"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. BANDAFASSI",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BANDAFASSI"
+                                },
+                                {
+                                    "nom": "CR.  TOMBORONKOTO"
+                                },
+                                {
+                                    "nom": "CR.  DINDIFELO"
+                                },
+                                {
+                                    "nom": "CR.  NINEFECHA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. FONGOLEMBI",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DIMBOLI"
+                                },
+                                {
+                                    "nom": "CR.  FONGOLEMBI"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "SALEMATA",
+                    "arrondissements": [
+                        {
+                            "nom": "SALEMATA",
+                            "communes": [
+                                {
+                                    "nom": "COM. SALEMATA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DAKATELI",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DAKATELI"
+                                },
+                                {
+                                    "nom": "CR.  KEVOYE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DAR  SALAM",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DAR SALAM"
+                                },
+                                {
+                                    "nom": "CR.  ETHIOLO"
+                                },
+                                {
+                                    "nom": "CR.  OUBADJI"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "SARAYA",
+                    "arrondissements": [
+                        {
+                            "nom": "SARAYA",
+                            "communes": [
+                                {
+                                    "nom": "COM. SARAYA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. BEMBOU",
+                            "communes": [
+                                {
+                                    "nom": "CR.  MEDINA BAFFE"
+                                },
+                                {
+                                    "nom": "CR.  BEMBOU"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SABODOLA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KHOSSANTO"
+                                },
+                                {
+                                    "nom": "CR.  MISSIRAH SIRIMANA"
+                                },
+                                {
+                                    "nom": "CR.  SABODALA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "SEDHIOU",
+            "departements": [
+                {
+                    "nom": "SEDHIOU",
+                    "arrondissements": [
+                        {
+                            "nom": "SEDHIOU",
+                            "communes": [
+                                {
+                                    "nom": "COM. SEDHIOU"
+                                },
+                                {
+                                    "nom": "COM. MARSASSOUM"
+                                },
+                                {
+                                    "nom": "COM. DIANAH MALARY"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DIENDE",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DIENDE"
+                                },
+                                {
+                                    "nom": "CR.  SAKAR"
+                                },
+                                {
+                                    "nom": "CR.  DIANNAH BA"
+                                },
+                                {
+                                    "nom": "CR.  KOUSSY"
+                                },
+                                {
+                                    "nom": "CR.  OUDOUCAR"
+                                },
+                                {
+                                    "nom": "CR.  SAMA KANTA PEULH"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DJIBABOUYA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BENET- BIJINI"
+                                },
+                                {
+                                    "nom": "CR.  SANSAMBA"
+                                },
+                                {
+                                    "nom": "CR.  DJIBABOUYA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DJIREDJI",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BAMBALI"
+                                },
+                                {
+                                    "nom": "CR.  DJIREDJI"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "BOUNKILING",
+                    "arrondissements": [
+                        {
+                            "nom": "BOUNKILING",
+                            "communes": [
+                                {
+                                    "nom": "COM. BOUNKILING"
+                                },
+                                {
+                                    "nom": "COM. MADINA WANDIFA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. BOGHAL",
+                            "communes": [
+                                {
+                                    "nom": "CR.  N’DIAMACOUTA"
+                                },
+                                {
+                                    "nom": "CR.  BOGHAL"
+                                },
+                                {
+                                    "nom": "CR.  TANKON"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. BONA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  BONA"
+                                },
+                                {
+                                    "nom": "CR.  DIACOUNDA"
+                                },
+                                {
+                                    "nom": "CR.  INOR"
+                                },
+                                {
+                                    "nom": "CR.  KANDION MANGANA"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DIAROUME",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DIAROUME"
+                                },
+                                {
+                                    "nom": "CR.  DIAMBATY"
+                                },
+                                {
+                                    "nom": "CR.  FAOUNE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nom": "GOUDOMP",
+                    "arrondissements": [
+                        {
+                            "nom": "GOUDOMP",
+                            "communes": [
+                                {
+                                    "nom": "COM. GOUDOMP"
+                                },
+                                {
+                                    "nom": "COM. DIATTACOUNDA"
+                                },
+                                {
+                                    "nom": "COM. SAMINE"
+                                },
+                                {
+                                    "nom": "COM. TANAFF"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. DJIBANAR",
+                            "communes": [
+                                {
+                                    "nom": "CR.  DJIBANAR"
+                                },
+                                {
+                                    "nom": "CR.  KAOUR"
+                                },
+                                {
+                                    "nom": "CR.  MANGAROUNGOU SANTO"
+                                },
+                                {
+                                    "nom": "CR.  SIMBADI BALANTE"
+                                },
+                                {
+                                    "nom": "CR.  YARANG BALANTE"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. KARANTABA",
+                            "communes": [
+                                {
+                                    "nom": "CR.  KARANTABA"
+                                },
+                                {
+                                    "nom": "CR.  KOLIBANTANG"
+                                }
+                            ]
+                        },
+                        {
+                            "nom": "AR. SIMBANDI BRASSOU",
+                            "communes": [
+                                {
+                                    "nom": "CR.  NIAGHA"
+                                },
+                                {
+                                    "nom": "CR.  SIMBANDI BRASSOU"
+                                },
+                                {
+                                    "nom": "CR.  BAGHERE"
+                                },
+                                {
+                                    "nom": "CR.  DIOUBOUDOU"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

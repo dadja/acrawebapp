@@ -1,0 +1,407 @@
+
+<!-- Page Wrapper -->
+<div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" >
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-laugh-wink"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">ACRA </div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" (click)="dashboard()">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span style="cursor: pointer;">Dashboard</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Parteanaires
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" style="cursor: pointer;">
+          <!-- <i class="fas fa-fw fa-cog"></i> -->
+          <span style="cursor: pointer;" (click)="createPartenair()">Créer un partenaire</span>
+        </a>
+        
+        </div> -->
+      </li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item" (click)="afficherPartenaire()">
+        <a class="nav-link collapsed" style="cursor: pointer;" >
+          <!-- <i class="fas fa-fw fa-wrench"></i> -->
+          <span style="cursor: pointer;">Afficher les Partenaires</span>
+        </a>
+        
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed"  >
+          <!-- <i class="fas fa-fw fa-wrench"></i> -->
+          <span style="cursor: pointer;" (click)="logout()">Se déconnecter</span>
+        </a>
+        
+      </li>
+
+      
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+   
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <!-- Topbar Search -->
+        
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+            <a class="navbar-brand" >Filtre par type de collecte</a>
+            <select (change)="filterByTypeCollect($event.target.value)">
+              <option value="" >-Type de Collecte-</option>
+              <option value="danger" >Danger</option>
+              <option value="pointeau" >Point d'eau</option>
+              <option value="batimentpublic" >Bâtiment Public</option>
+              <option value="batimentprive" >Bâtiment Privé</option>
+              <option value="latrine" >Latrines</option>
+            </select>
+          <!-- Content Row -->
+
+          <div class="row">
+
+            <!-- Area Chart -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" style = "position: top" >Filtre des collectes reçues</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       
+        
+        <select (change)="filterByPartenaire($event.target.value)">
+             <option value="" >-Partenaire-</option>
+             <option *ngFor ="let partenaire of partenaires" [value]="partenaire.id" >{{partenaire.nomPartenaire}}</option>
+        </select>
+        &nbsp; &nbsp;
+        <select *ngIf="partenaire !== ''"(change)="filterByRegion($event.target.value)">
+          <option value="" >-Region-</option>
+          <option *ngFor ="let region of regions" [value]="region.nom" >{{region.nom}}</option>
+        </select>
+        &nbsp; &nbsp;
+        <select *ngIf="theRegion !== ''" (change)="filterByDepartement($event.target.value)">
+          <option value="" >-Département-</option>
+          <option *ngFor ="let departement of departements" [value]="departement.nom" >{{departement.nom}}</option>
+        </select>
+        &nbsp; &nbsp;
+        <select *ngIf="theDepartement !== ''" (change)="filterByArrondissement($event.target.value)">
+          <option value="" >-Arrondissement-</option>
+          <option *ngFor ="let arrondissement of arrondissements" [value]="arrondissement.nom" >{{arrondissement.nom}}</option>
+        </select>
+        &nbsp; &nbsp;
+        <select *ngIf="theArrondissement !== ''" (change)="filterByCommune($event.target.value)">
+          <option value="" >-Commune-</option>
+          <option *ngFor ="let commune of communes" [value]="commune.nom" >{{commune.nom}}</option>
+        </select>
+        &nbsp; &nbsp;
+        <input *ngIf="theCommune !== ''"  (change)="filterByVillage($event.target.value)" placeholder="Tapez le nom du village"/>
+ 
+        &nbsp; &nbsp;
+        
+        <!-- <div *ngIf="buttonCsv === 'true'"></div> -->
+        
+      </div>
+    </nav>
+    
+            
+            <!-- Area Chart -->
+            <div class="col-xl-8 col-lg-7">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Géolocalisation des données</h6>
+                  <div class="custom-control custom-switch">
+                      <input type="checkbox" class="custom-control-input" id="customSwitches" [value]="map"  (click)="changeMap($event)">
+                      <label *ngIf="map === false" class="custom-control-label" for="customSwitches">Satellite</label>
+                      <label *ngIf="map === true" class="custom-control-label" for="customSwitches">Carte</label>
+                    </div>
+                  <button class="btn btn-lg btn-primary btn-block" (click)="open(content)" style="margin-left: 0; position: relative; width: 100px; ">Export</button>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      
+                    </div> 
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body" style="margin:0px; padding:0px">
+            
+          <agm-map  [latitude]='latitude' [longitude]='longitude' 
+              [mapTypeId]='mapType'
+              [zoom] = 'zoom'>
+              <div *ngFor="let marker of markers" >
+              <agm-marker
+               *ngIf = "marker.typecollecte === 'danger'"
+              [latitude]="marker.latitude"
+              [longitude]="marker.longitude"
+              [opacity]="1"
+              [title]="marker.id"
+              iconUrl="https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|EA5A0B"
+              [openInfoWindow] = "true"
+              [markerDraggable]="false"
+              (markerClick)="selectMarker($event)"
+            ></agm-marker>
+            <agm-marker
+            *ngIf = "marker.typecollecte === 'latrine'"
+           [latitude]="marker.latitude"
+           [longitude]="marker.longitude"
+           [opacity]="1"
+           [title]="marker.id"
+           iconUrl="https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|AFA5A1"
+           [openInfoWindow] = "true"
+           [markerDraggable]="false"
+           (markerClick)="selectMarker($event)"
+         ></agm-marker>
+         <agm-marker
+            *ngIf = "marker.typecollecte === 'batimentprive'"
+           [latitude]="marker.latitude"
+           [longitude]="marker.longitude"
+           [opacity]="1"
+           [title]="marker.id"
+           iconUrl="https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|A2BB0C"
+           [openInfoWindow] = "true"
+           [markerDraggable]="false"
+           (markerClick)="selectMarker($event)"
+         ></agm-marker>
+         <agm-marker
+            *ngIf = "marker.typecollecte === 'pointeau'"
+           [latitude]="marker.latitude"
+           [longitude]="marker.longitude"
+           [opacity]="1"
+           [title]="marker.id"
+           iconUrl="https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|133D69"
+           [openInfoWindow] = "true"
+           [markerDraggable]="false"
+           (markerClick)="selectMarker($event)"
+         ></agm-marker>
+         <agm-marker
+         *ngIf = "marker.typecollecte === 'batimentpublic'"
+        [latitude]="marker.latitude"
+        [longitude]="marker.longitude"
+        [opacity]="1"
+        [title]="marker.id"
+        iconUrl="https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|8ABAD3"
+        [openInfoWindow] = "true"
+        [markerDraggable]="false"
+        (markerClick)="selectMarker($event)"
+      ></agm-marker>
+    </div>  
+            </agm-map>
+          
+                 
+              </div>
+              </div>
+            </div>
+
+            <!-- Pie Chart -->
+            <div class="col-xl-4 col-lg-5">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Information relatives à la collecte</h6>
+                  <div class="dropdown no-arrow">
+                    
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="card-body"  style= "height:600px; overflow: scroll;">
+                    <div *ngIf="typeCollect === ''"></div>
+                    <div *ngIf="typeCollect === 'batimentpublic'"><app-batimentpublic (onPageChild)="onPage($event)" [childMarker]= 'parentMarker'></app-batimentpublic></div>
+                    <div *ngIf="typeCollect === 'latrine'"><app-latrine (onPageChild)="onPage($event)" [childMarker]= 'parentMarker'></app-latrine></div>
+                    <div *ngIf="typeCollect === 'danger'"><app-danger  (onPageChild)="onPage($event)" [childMarker]= 'parentMarker'></app-danger></div>
+                    <div *ngIf="typeCollect === 'batimentprive'"><app-batimentprive (onPageChild)="onPage($event)" [childMarker]= 'parentMarker'></app-batimentprive></div>
+                    <div *ngIf="typeCollect === 'pointeau'"><app-pointeau (onPageChild)="onPage($event)" [childMarker]= 'parentMarker'></app-pointeau></div>
+                 
+                </div>
+                </div>
+              </div>
+            </div>
+
+           
+
+
+          </div>
+
+          <!-- Content Row -->
+          <div class="row">
+
+            <!-- Content Column -->
+            <div class="col-lg-6 mb-4">
+
+              
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+  
+
+    </div>
+    <!-- End of Content Wrapper -->
+    <div class="row">
+        <div class="col-xl-8 col-lg-7">
+          <div class="card shadow mb-4">
+            <!-- Card Header - Dropdown -->
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+              <h6 class="m-0 font-weight-bold " [style.color]="color">Données Statistiques</h6>
+            </div>
+            <!-- Card Body -->
+            <div class="card-body" >
+              <table class="table table-striped">
+                <thead>
+                <tr>
+                  
+                  <th scope="col">Type de Collectes</th>
+                  <th scope="col">Nombre de collectes</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr >
+                  
+                  <td>
+                    Point d'eau
+                  </td>
+                  <td >{{countPointeau}}</td>
+                </tr>
+                <tr >
+                  
+                    <td>
+                        Danger
+                    </td>
+                    <td >{{countDanger}}</td>
+                </tr>
+                <tr >
+                  
+                    <td>
+                        Latrines
+                    </td>
+                    <td  >{{countLatrine}}</td>
+                </tr>
+                <tr >
+                  
+                    <td>
+                      Bâtiment privé
+                    </td>
+                    <td >{{countBaptimentPrive}}</td>
+                </tr>
+                <tr >
+                  
+                    <td>
+                        Bâtiment public
+                    </td>
+                    <td >{{countBaptimentPublic}}</td>
+                </tr>
+                <tr >
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-xl-4 col-lg-5">
+          <div class="card shadow mb-4">
+            <!-- Card Header - Dropdown -->
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+              <h6 class="m-0 font-weight-bold " [style.color]="color">Listes des collectes</h6>
+            </div>
+            <!-- Card Body -->
+            <div class="card-body" >
+                <div class="justify-content-center">
+                            
+                    <!-- <form class="card card-sm"> -->
+                        <div>
+                        <div>
+                            
+                            <div >
+                                <input [(ngModel)]="searchText" class="form-control  form-control-borderless" type="search" placeholder="Taper une date: 01/01/2019"/>
+                            </div>
+                        </div>
+                      </div>
+                      <br>
+                    <!-- </form> -->
+                
+                <!--end of col-->
+            <div class="card-body"  style="height: 350px; overflow: scroll;">
+                <table class="table table-striped">
+                    <tbody>
+                    <tr *ngFor= "let marker of markers | byDate: searchText" style="cursor: pointer;" (click)="getdata(marker)">
+                      
+                      <td>
+                        {{marker.typecollecte}}
+                      </td>
+                      <td [style.color]="color" >{{marker.collecteur}}</td>
+                      <td [style.color]="color" >{{marker.date}}</td>
+                    </tr>
+                   
+                    </tbody>
+                  </table>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        
+  
+  </div>
+  <!-- End of Page Wrapper -->
+
+
+  <ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Exporter les collectes</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+        <button class="btn btn-lg btn-primary btn-block" value = "danger" (click)="popupExportCsv($event.target.value)"[style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   > Danger</button>
+        <button class="btn btn-lg btn-primary btn-block" value = "latrine" (click)="popupExportCsv($event.target.value)"[style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   > Latrines</button>
+        <button class="btn btn-lg btn-primary btn-block" value = "batimentpublic" (click)="popupExportCsv($event.target.value)"[style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   > Batiments Publiques</button>
+        <button class="btn btn-lg btn-primary btn-block" value = "batimentprive" (click)="popupExportCsv($event.target.value)"[style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   >Batiments Privés</button>
+        <button class="btn btn-lg btn-primary btn-block" value = "pointeau" (click)="popupExportCsv($event.target.value)"[style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   >Points d'eau</button>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" (click)="modal.close('annulé')">Annuler</button>
+    </div>
+  </ng-template>

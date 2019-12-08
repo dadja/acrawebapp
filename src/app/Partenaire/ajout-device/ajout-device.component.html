@@ -1,0 +1,35 @@
+<div class="col" style="margin:10px;">
+  <div >
+    <div class="card shadow mb-4">
+      <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+        <h6 class="m-0 font-weight-bold " [style.color]="color">Ajouter un appareil</h6>
+        
+      </div>
+  <div class="card-body" style="margin:10px; padding:20px">
+    <form  [formGroup]="collecteurForm" (ngSubmit)="addDevice()" >
+      <!-- <img class="mb-4 center" src="/src/assets/img/logo_acra.jpg" alt="" width="300" height="125"> -->
+    
+      
+    
+      <label  class="sr-only">Libele</label>
+      <input type="text"  formControlName="Libele" class="form-control" placeholder="Ex: Samsung Galaxy S10" required autofocus><br/>
+  
+      <!-- <label  class="sr-only">IMEI</label>
+      <input type="text" formControlName="IMEI" class="form-control" placeholder="IMEI Appareil" required autofocus><br/> -->
+  
+
+    <br>
+    <!-- <div class="result" *ngIf="uploadURL | async; let uploadSrc">
+      <a [href]="uploadSrc">Tout est Ok!</a>
+    </div> -->
+      <button class="btn btn-lg btn-primary btn-block" [style.background-color]="color" type="submit">Enregistrer Nouvel Appareil</button>
+      
+    </form>
+    <!-- <div class="">
+        
+      <canvas id="myAreaChart"></canvas>
+    </div> -->
+  </div>
+  </div>
+  </div>
+  </div>

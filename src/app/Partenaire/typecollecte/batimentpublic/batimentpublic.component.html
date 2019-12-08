@@ -1,0 +1,93 @@
+<!-- <p>Bâtiment Publique</p> -->
+<div style="background-color: #8ABAD3; height: 40px;">
+        <p style="color: white; position: relative; top: 7px; left: 10px" >Bâtiment Public</p>
+        </div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    
+    <th scope="col">Info</th>
+    <th scope="col">Contenu</th>
+  </tr>
+  </thead>
+  <tbody>
+        <tr >
+    
+                <td>
+                  Date
+                </td>
+                <td>{{childMarker.date}}</td>
+              </tr>
+       
+                <tr >
+    
+                        <td>
+                          Collecteur
+                        </td>
+                        <td>{{childMarker.collecteur}}</td>
+                      </tr>
+                      <tr >
+                        
+                          <td>
+                              Latitude
+                          </td>
+                          <td>{{childMarker.latitude}}</td>
+                      </tr>
+                      <tr >
+                        
+                          <td>
+                              Longitude
+                          </td>
+                          <td>{{childMarker.longitude}}</td>
+                      </tr>
+                     
+    <tr>
+      <td>
+          Nom Du Bâtiment
+      </td>
+      <td>{{childMarker.nombatiment}}</td>
+  </tr>
+  <tr >
+    
+        <td>
+            Type de Bâtiment 
+        </td>
+        <td>{{childMarker.typebatiment}}</td>
+    </tr>
+    <tr >
+    
+            <td>
+                Sous-type de Bâtiment 
+            </td>
+            <td>{{childMarker.soustypebatiment}}</td>
+        </tr>
+    <tr >
+    
+            <td>
+                Robinet Existant
+            </td>
+            <!-- <td>{{childMarker.robinetexistant}}</td> -->
+            <td *ngIf = "childMarker.robinetexistant === 'false'">NON</td>
+            <td *ngIf = "childMarker.robinetexistant !== 'false'">OUI</td>
+        </tr>
+        <tr >
+          
+            <td>
+                Robinet fonctionnel
+            </td>
+            <!-- <td>{{childMarker.robinetfonctionnel}}</td> -->
+            <td *ngIf = "childMarker.robinetfonctionnel === 'false'">NON</td>
+            <td *ngIf = "childMarker.robinetfonctionnel !== 'false'">OUI</td>
+        </tr>
+  <tr >
+    
+      <td>
+          Note
+      </td>
+      <td>{{childMarker.note}}</td>
+  </tr>
+  
+  </tbody>
+
+</table>
+<button class="btn btn-lg btn-primary btn-block" (click)="delete(childMarker.id)" [style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   >Supprimer cette collecte</button>

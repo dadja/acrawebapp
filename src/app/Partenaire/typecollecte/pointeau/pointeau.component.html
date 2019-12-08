@@ -1,0 +1,699 @@
+
+
+<div *ngIf = "childMarker.typepointeau === 'Forage'">
+<!-- <p  ></p> -->
+<div style="background-color: #133D69; height: 40px;">
+    <p style="color: white; position: relative; top: 7px; left: 10px" >Point d'eau (Forage)</p>
+    </div>
+
+<table class="table table-striped">
+  <thead>
+  <tr>
+    
+    <th scope="col">Info</th>
+    <th scope="col">Contenu </th>
+  </tr>
+  </thead>
+  <tbody>
+      <tr >
+    
+          <td>
+            Date
+          </td>
+          <td>{{childMarker.date}}</td>
+        </tr>
+  <tr >
+
+          <td>
+            Collecteur
+          </td>
+          <td>{{childMarker.collecteur}}</td>
+        </tr>
+       
+<tr >
+      <td>
+          Longitude
+      </td>
+      <td>{{childMarker.longitude}}</td>
+  </tr>
+  <tr >
+      <tr >
+    
+          <td>
+              Latitude
+          </td>
+          <td>{{childMarker.latitude}}</td>
+      </tr>
+      <tr >
+    
+          <td>
+            Nom du point d'eau
+          </td>
+          <td>{{childMarker.nompointeau}}</td>
+          
+        </tr>
+        <tr >
+    
+            <td>
+              Note
+            </td>
+            <td>{{childMarker.note}}</td>
+            
+          </tr>
+  <tr >
+      <tr >
+    
+          <td>
+            Bon État Général
+          </td>
+          <!-- <td>{{childMarker.bonetatgeneral}}</td> -->
+          <td *ngIf = "childMarker.bonetatgeneral === 'false'">NON</td>
+          <td *ngIf = "childMarker.bonetatgeneral !== 'false'">OUI</td>
+          
+        </tr>
+        <tr >
+    
+            <td>
+                Cloture
+            </td>
+            <td *ngIf = "childMarker.foragecloture === 'false'">NON</td>
+          <td *ngIf = "childMarker.foragecloture !== 'false'">OUI</td>
+        </tr>
+        <tr >
+    
+            <td>
+               Source d'alimentation
+            </td>
+            <td>{{childMarker.foragesourcealimentation}}</td>
+        </tr>
+        <tr >
+    
+            <td>
+                Usage
+            </td>
+            <td>{{childMarker.forageusage}}</td>
+        </tr>
+<tr >
+    
+    <td>
+      Tête Protégée
+    </td>
+    <td *ngIf = "childMarker.forageteteprotege === 'false'">NON</td>
+    <td *ngIf = "childMarker.forageteteprotege !== 'false'">OUI</td>
+  </tr>
+  
+  
+  <tr >
+    
+      <td>
+          Date d'exploitation
+      </td>
+      <td>{{childMarker.foragedateexploitation}}</td>
+  </tr>
+  <tr >
+    
+      <td>
+          Debit horaire pompe
+      </td>
+      <td>{{childMarker.foragedebithorairepompe}}</td>
+      <!-- <td *ngIf = "childMarker.foragedebithorairepompe=== 'false'">NON</td>
+      <td *ngIf = "childMarker.foragedebithorairepompe !== 'false'">OUI</td> -->
+  </tr>
+  <!-- <tr >
+    
+      <td>
+          Couvercle de puit
+      </td>
+      <td>{{childMarker.couverclepuit}}</td>
+      <td *ngIf = "childMarker.couverclepuit=== 'false'">NON</td>
+      <td *ngIf = "childMarker.foragedebithorairepompe !== 'false'">OUI</td>
+  </tr> -->
+  <tr >
+    
+      <td>
+          Durée Journalière de pompage
+      </td>
+      <td>{{childMarker.foragedureejournalierepompage}}</td>
+  </tr>
+  <tr >
+    
+      <td>
+          Volume Mensuel Prélevé
+      </td>
+      <td>{{childMarker.foragevolumemensuelpreleve}}</td>
+  </tr>
+  <tr >
+    
+    <td>
+        Nombre de pompages au jour
+    </td>
+    <td>{{childMarker.foragenombrejourpompage}}</td>
+</tr>
+<tr >
+    
+    <td>
+        Niveau Statique de forage
+    </td>
+    <td>{{childMarker.forageniveaustatiqueforage}}</td>
+  </tr>
+  <tr >
+    
+      <td>
+          Potentiel Hydrogène
+      </td>
+      <td>{{childMarker.foragepotentielhydraulique}}</td>
+    </tr>
+    <tr >
+    
+        <td>
+          Température
+        </td>
+        <td>{{childMarker.foragetemperature}}</td>
+      </tr>
+      <tr >
+          
+        <td>
+          Conductivité Electrique
+        </td>
+        <td>{{childMarker.forageconductiviteelectrique}}</td>
+      </tr> 
+  <!-- <tr >
+    
+    <td>
+        Source d'alimentation
+    </td>
+    <td>{{childMarker.foragesourcealimentation}}</td>
+</tr> -->
+
+
+
+  </tbody>
+</table>
+<button class="btn btn-lg btn-primary btn-block" (click)="delete(childMarker.id)"[style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   >Supprimer cette collecte</button>
+
+</div>
+
+
+<div *ngIf = "childMarker.typepointeau === 'Puit'">
+  <!-- <p  ></p> -->
+  <div style="background-color: #133D69; height: 100%;">
+      <p style="color: white; position: relative; top: 7px;" >Point d'eau (Puit)</p>
+      </div>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      
+      <th scope="col">Info</th>
+      <th scope="col">Contenu </th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr >
+    
+            <td>
+              Date
+            </td>
+            <td>{{childMarker.date}}</td>
+          </tr>
+    <tr >
+  
+            <td>
+              Collecteur
+            </td>
+            <td>{{childMarker.collecteur}}</td>
+          </tr>
+         
+  <tr >
+        <td>
+            Longitude
+        </td>
+        <td>{{childMarker.longitude}}</td>
+    </tr>
+    <tr >
+        <tr >
+      
+            <td>
+                Latitude
+            </td>
+            <td>{{childMarker.latitude}}</td>
+        </tr>
+        <tr >
+    
+            <td>
+              Nom du point d'eau
+            </td>
+            <td>{{childMarker.nompointeau}}</td>
+            
+          </tr>
+    <tr >
+          <tr >
+      
+              <td>
+                Note
+              </td>
+              <td>{{childMarker.note}}</td>
+              
+            </tr>
+    <tr >
+        <tr >
+      
+            <td>
+              Bon État Général
+            </td>
+            <!-- <td>{{childMarker.bonetatgeneral}}</td> -->
+            <td *ngIf = "childMarker.bonetatgeneral === 'false'">NON</td>
+            <td *ngIf = "childMarker.bonetatgeneral !== 'false'">OUI</td>
+            
+          </tr>
+          <tr >
+      
+              <td>
+                  Cloture
+              </td>
+              <td *ngIf = "childMarker.foragecloture === 'false'">NON</td>
+            <td *ngIf = "childMarker.foragecloture !== 'false'">OUI</td>
+          </tr>
+      <tr>
+          
+      
+              <td>
+                 Usage
+              </td>
+              <td>{{childMarker.puitusage}}</td>
+          </tr>
+          <tr >
+      
+              <td>
+                Couvercle Puit
+              </td>
+              <td *ngIf = "childMarker.couverclepuit === 'false'">NON</td>
+              <td *ngIf = "childMarker.couverclepuit !== 'false'">OUI</td>
+            </tr>
+    <tr >
+      <td>
+        Date d'exploitation
+      </td>
+      <td>{{childMarker.puitdateexploitation}}</td>
+      <!-- <td *ngIf = "childMarker.forageteteprotege === 'false'">NON</td>
+      <td *ngIf = "childMarker.forageteteprotege !== 'false'">OUI</td> -->
+    </tr>
+    
+    <tr >
+      
+        <td>
+            Débit Horaire pompe
+        </td>
+        <td>{{childMarker.puitdebithorairepompe}}</td>
+    </tr>
+    <!-- <tr >
+      
+        <td>
+            Date d'exploitation
+        </td>
+        <td>{{childMarker.foragedateexploitation.toDateString()}}</td>
+    </tr> -->
+    <tr >
+      
+        <td>
+            Durée Journalière Pompage
+        </td>
+        <td>{{childMarker.puitdureejournalierepompage}}</td>
+    </tr>
+    <tr >
+      
+        <td>
+            Volume Mensuel Prélevé
+        </td>
+        <td>{{childMarker.puitvolumemensuelpreleve}}</td>
+        <!-- <td *ngIf = "childMarker.foragedebithorairepompe=== 'false'">NON</td>
+        <td *ngIf = "childMarker.foragedebithorairepompe !== 'false'">OUI</td> -->
+    </tr>
+    <!-- <tr >
+      
+        <td>
+            Couvercle de puit
+        </td>
+        <td>{{childMarker.couverclepuit}}</td>
+        <td *ngIf = "childMarker.couverclepuit=== 'false'">NON</td>
+        <td *ngIf = "childMarker.foragedebithorairepompe !== 'false'">OUI</td>
+    </tr> -->
+    <tr >
+      
+        <td>
+          Nombre jour pompage
+        </td>
+        <td>{{childMarker.puitnombrejourpompage}}</td>
+    </tr>
+    <tr >
+      
+        <td>
+            Niveau Statique 
+        </td>
+        <td>{{childMarker.puitniveaustatiquepuit}}</td>
+    </tr>
+    <tr >
+      
+      <td>
+          Potentiel Hydrogène
+      </td>
+      <td>{{childMarker.puitpotentielhydraulique}}</td>
+  </tr>
+  <tr >
+      
+      <td>
+          Conductivité Electrique
+      </td>
+      <td>{{childMarker.puitconductiviteelectrique}}</td>
+    </tr>
+    <tr >
+      
+      <td>
+        Température
+      </td>
+      <td>{{childMarker.puittemperature}}</td>
+  </tr>
+ 
+  <tr >
+      
+    <td>
+        Type de puit
+    </td>
+    <td>{{childMarker.typepuit}}</td>
+  </tr>
+  
+  
+    </tbody>
+  </table>
+  <button class="btn btn-lg btn-primary btn-block" (click)="delete(childMarker.id)" [style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   >Supprimer cette collecte</button>
+
+  </div>
+
+
+
+
+  <div *ngIf = "childMarker.typepointeau === 'Pompe manuelle'">
+    <!-- <p  ></p> -->
+    <div style="background-color: #133D69; height: 100%;">
+        <p style="color: white; position: relative; top: 7px;" >Point d'eau (Pompe Manuelle)</p>
+        </div>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        
+        <th scope="col">Info</th>
+        <th scope="col">Contenu </th>
+      </tr>
+      </thead>
+      <tbody>
+          <tr >
+    
+              <td>
+                Date
+              </td>
+              <td>{{childMarker.date}}</td>
+            </tr>
+      <tr >
+    
+              <td>
+                Collecteur
+              </td>
+              <td>{{childMarker.collecteur}}</td>
+            </tr>
+           
+    <tr >
+          <td>
+              Longitude
+          </td>
+          <td>{{childMarker.longitude}}</td>
+      </tr>
+      <tr >
+          <tr >
+        
+              <td>
+                  Latitude
+              </td>
+              <td>{{childMarker.latitude}}</td>
+          </tr>
+          <tr >
+    
+              <td>
+                Nom du point d'eau
+              </td>
+              <td>{{childMarker.nompointeau}}</td>
+              
+            </tr>
+      <tr >
+            <tr >
+        
+                <td>
+                  Note
+                </td>
+                <td>{{childMarker.note}}</td>
+                
+              </tr>
+      <tr >
+          <tr >
+        
+              <td>
+                Bon État Général
+              </td>
+              <!-- <td>{{childMarker.bonetatgeneral}}</td> -->
+              <td *ngIf = "childMarker.bonetatgeneral === 'false'">NON</td>
+              <td *ngIf = "childMarker.bonetatgeneral !== 'false'">OUI</td>
+              
+            </tr>
+            <tr >
+        
+                <td>
+                    Cloture
+                </td>
+                <td *ngIf = "childMarker.foragecloture === 'false'">NON</td>
+              <td *ngIf = "childMarker.foragecloture !== 'false'">OUI</td>
+            </tr>
+            <tr >
+        
+                <td>
+                  Modèle de pompe 
+                </td>
+                <td>{{childMarker.modelepompe}}</td>
+            </tr>
+      <tr >
+        
+        <td>
+          Drainage
+        </td>
+        <!-- <td >{{childMarker.drainage}}</td> -->
+        <td *ngIf = "childMarker.drainage === 'false'">NON</td>
+    <td *ngIf = "childMarker.drainage !== 'false'">OUI</td>
+      </tr>
+     
+      
+      </tbody>
+    </table>
+    <button class="btn btn-lg btn-primary btn-block" (click)="delete(childMarker.id)"[style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   >Supprimer cette collecte</button>
+
+    </div>
+    
+
+
+    <div *ngIf = "childMarker.typepointeau === 'Source'">
+      <div style="background-color: #133D69; height: 100%;">
+      <p style="color: white; position: relative; top: 7px;" >Point d'eau (Source)</p>
+      </div>
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          
+          <th scope="col">Info</th>
+          <th scope="col">Contenu </th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr >
+    
+                <td>
+                  Date
+                </td>
+                <td>{{childMarker.date}}</td>
+              </tr>
+        <tr >
+      
+                <td>
+                  Collecteur
+                </td>
+                <td>{{childMarker.collecteur}}</td>
+              </tr>
+             
+      <tr >
+            <td>
+                Longitude
+            </td>
+            <td>{{childMarker.longitude}}</td>
+        </tr>
+        <tr >
+            <tr >
+          
+                <td>
+                    Latitude
+                </td>
+                <td>{{childMarker.latitude}}</td>
+            </tr>
+            <tr >
+    
+                <td>
+                  Nom du point d'eau
+                </td>
+                <td>{{childMarker.nompointeau}}</td>
+                
+              </tr>
+        <tr >
+              <tr >
+          
+                  <td>
+                    Note
+                  </td>
+                  <td>{{childMarker.note}}</td>
+                  
+                </tr>
+        <tr >
+            <tr >
+          
+                <td>
+                  Bon État Général
+                </td>
+                <!-- <td>{{childMarker.bonetatgeneral}}</td> -->
+                <td *ngIf = "childMarker.bonetatgeneral === 'false'">NON</td>
+                <td *ngIf = "childMarker.bonetatgeneral !== 'false'">OUI</td>
+                
+              </tr>
+              <tr >
+          
+                  <td>
+                      Cloture
+                  </td>
+                  <td *ngIf = "childMarker.foragecloture === 'false'">NON</td>
+                <td *ngIf = "childMarker.foragecloture !== 'false'">OUI</td>
+              </tr>
+        <tr >
+          
+          <td>
+            Note de Source
+          </td>
+          <td >{{childMarker.sourcenote}}</td>
+        </tr>
+        <tr >
+          
+            <td>
+              Aménagé
+            </td>
+            <!-- <td>{{childMarker.amenage}}</td> -->
+            <td *ngIf = "childMarker.amenage === 'false'">NON</td>
+    <td *ngIf = "childMarker.foragecloture !== 'false'">OUI</td>
+        </tr>
+        
+        </tbody>
+      </table>
+      <button class="btn btn-lg btn-primary btn-block" (click)="delete(childMarker.id)"[style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   >Supprimer cette collecte</button>
+
+      </div>
+
+
+        
+    
+    
+        <div *ngIf = "childMarker.typepointeau.localeCompare('Autre type de point d\'eau')===0">
+          <!-- <p style="background-color: #133D69" ></p> -->
+          <div style="background-color: #133D69; height: 100%;">
+              <p style="color: white; position: relative; top: 7px;" >Point d'eau (Autre type de point d'eau)</p>
+              </div>
+          
+          <table class="table table-striped">
+            <thead>
+            <tr>
+              
+              <th scope="col">Info</th>
+              <th scope="col">Contenu </th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr >
+    
+                    <td>
+                      Date
+                    </td>
+                    <td>{{childMarker.date}}</td>
+                  </tr>
+            <tr >
+          
+                    <td>
+                      Collecteur
+                    </td>
+                    <td>{{childMarker.collecteur}}</td>
+                  </tr>
+                 
+          <tr >
+                <td>
+                    Longitude
+                </td>
+                <td>{{childMarker.longitude}}</td>
+            </tr>
+            <tr >
+                <tr >
+              
+                    <td>
+                        Latitude
+                    </td>
+                    <td>{{childMarker.latitude}}</td>
+                </tr>
+                <tr >
+    
+                    <td>
+                      Nom du point d'eau
+                    </td>
+                    <td>{{childMarker.nompointeau}}</td>
+                    
+                  </tr>
+            <tr >
+                  <tr >
+              
+                      <td>
+                        Note
+                      </td>
+                      <td>{{childMarker.note}}</td>
+                      
+                    </tr>
+            <tr >
+                <tr >
+              
+                    <td>
+                      Bon État Général
+                    </td>
+                    <!-- <td>{{childMarker.bonetatgeneral}}</td> -->
+                    <td *ngIf = "childMarker.bonetatgeneral === 'false'">NON</td>
+                    <td *ngIf = "childMarker.bonetatgeneral !== 'false'">OUI</td>
+                    
+                  </tr>
+                  <tr >
+              
+                      <td>
+                          Cloture
+                      </td>
+                      <td *ngIf = "childMarker.foragecloture === 'false'">NON</td>
+                    <td *ngIf = "childMarker.foragecloture !== 'false'">OUI</td>
+                  </tr>
+            <tr >
+              
+              <td>
+                Autre point d'eau
+              </td>
+              <td >{{childMarker.autretypepointeau}}</td>
+            </tr>
+            
+            </tbody>
+          </table>
+          <button class="btn btn-lg btn-primary btn-block" (click)="delete(childMarker.id)"[style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   >Supprimer cette collecte</button>
+
+          </div>
+
+      
+      

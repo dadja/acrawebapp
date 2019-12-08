@@ -1,0 +1,40 @@
+<div class="col" style="margin:10px;">
+<div >
+  <div class="card shadow mb-4">
+    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+      <h6 class="m-0 font-weight-bold " [style.color]="color">Ajouter un collecteur</h6>
+      
+    </div>
+<div class="card-body" style="margin:10px; padding:20px">
+  <form  [formGroup]="collecteurForm" (ngSubmit)="addCollecteur()" >
+    <!-- <img class="mb-4 center" src="/src/assets/img/logo_acra.jpg" alt="" width="300" height="125"> -->
+  
+    
+  
+    <label  class="sr-only">Nom</label>
+    <input type="text"  formControlName="nom" class="form-control" placeholder="Nom" required autofocus><br/>
+
+    <label  class="sr-only">Prenom</label>
+    <input type="text" formControlName="prenom" class="form-control" placeholder="Prénom" required autofocus><br/>
+
+    <label  class="sr-only">Adresse Email</label>
+    <input type="text"  formControlName="email" class="form-control" placeholder="Adresse Email" required autofocus><br/>
+
+    <label  class="sr-only">Tel</label>
+    <input type="number"  formControlName="tel" class="form-control" placeholder="Numéro de téléphone" required autofocus><br/>
+
+  <br>
+  <!-- <div class="result" *ngIf="uploadURL | async; let uploadSrc">
+    <a [href]="uploadSrc">Tout est Ok!</a>
+  </div> -->
+    <button class="btn btn-lg btn-primary btn-block" [style.background-color]="color" type="submit">Enregistrer Nouveau Collecteur</button>
+    
+  </form>
+  <!-- <div class="">
+      
+    <canvas id="myAreaChart"></canvas>
+  </div> -->
+</div>
+</div>
+</div>
+</div>
