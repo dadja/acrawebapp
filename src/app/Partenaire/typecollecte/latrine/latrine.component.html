@@ -1,0 +1,195 @@
+<!-- <p>Latrines</p> -->
+<div style="background-color: #AFA5A1; height: 40px;">
+        <p style="color: white; position: relative; top: 7px; left: 10px" >Latrines</p>
+        </div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    
+    <th scope="col">Info</th>
+    <th scope="col">Contenu</th>
+  </tr>
+  </thead>
+  <tbody>
+      <tr>
+    
+          <td>
+            Date
+          </td>
+          <td>{{childMarker.date}}</td>
+    </tr>
+    <tr>
+
+          <td>
+            Collecteur
+          </td>
+          <td>{{childMarker.collecteur}}</td>
+        </tr>
+       
+    <tr>
+      <td>
+          Longitude
+      </td>
+      <td>{{childMarker.longitude}}</td>
+  </tr>
+      <tr>
+    
+          <td>
+              Latitude
+          </td>
+          <td>{{childMarker.latitude}}</td>
+      </tr>
+<tr >
+      <tr >
+    
+          <td>
+              Nom du Proprietaire
+          </td>
+          <td>{{childMarker.nomproprio}}</td>
+      </tr>
+      <tr >
+        
+        <td>
+            Numero du proprietaire
+        </td>
+        <td>{{childMarker.numproprio}}</td>
+    </tr>
+      <tr >
+    
+          <td>
+              Type de latrine
+          </td>
+          <td>{{childMarker.typelatrine}}</td>
+        </tr>
+
+        <tr >
+    
+            <td>
+                Type de Super Structure
+            </td>
+            <td>{{childMarker.superstructure}}</td>
+          </tr>
+    
+
+        <tr >
+    
+            <td>
+                type de Dalle
+            </td>
+            <td>{{childMarker.dalle}}</td>
+        </tr>
+   
+  <tr >
+    
+      <td>
+          Bon Etat General
+      </td>
+      <!-- <td>{{childMarker.bonetatgeneral}}</td> -->
+      <td *ngIf = "childMarker.bonetatgeneral === 'false'">NON</td>
+<td *ngIf = "childMarker.bonetatgeneral !== 'false'">OUI</td>
+  </tr>
+  <tr >
+    
+      <td>
+          Double Fosse
+      </td>
+      <!-- <td>{{childMarker.double fosse}}</td> -->
+      <td *ngIf = "childMarker.doublefosse === 'false'">NON</td>
+      <td *ngIf = "childMarker.doublefosse !== 'false'">OUI</td>
+  </tr>
+  <tr >
+    
+  <td>
+      Siege
+  </td>
+  <!-- <td>{{childMarker.siege}}</td> -->
+  <td *ngIf = "childMarker.siege === 'false'">NON</td>
+  <td *ngIf = "childMarker.siege !== 'false'">OUI</td>
+</tr>
+<tr >
+    
+    <td>
+       Ventilation
+    </td>
+    <!-- <td>{{childMarker.ventilation}}</td> -->
+  <td *ngIf = "childMarker.ventilation === 'false'">NON</td>
+  <td *ngIf = "childMarker.ventilation !== 'false'">OUI</td>
+  </tr>
+  <tr >
+    
+      <td>
+          Porte
+      </td>
+      <!-- <td>{{childMarker.porte}}</td> -->
+      <td *ngIf = "childMarker.porte === 'false'">NON</td>
+      <td *ngIf = "childMarker.porte !== 'false'">OUI</td>
+    </tr>
+  <tr >
+    
+      <td>
+          Fermeture
+      </td>
+      <!-- <td>{{childMarker.fermeture}}</td> -->
+      <td *ngIf = "childMarker.fermeture === 'false'">NON</td>
+      <td *ngIf = "childMarker.fermeture !== 'false'">OUI</td>
+  </tr>
+<tr >
+    
+    <td>
+        Toit
+    </td>
+    <!-- <td>{{childMarker.toit}}</td> -->
+    <td *ngIf = "childMarker.toit === 'false'">NON</td>
+      <td *ngIf = "childMarker.toit !== 'false'">OUI</td>
+  </tr>
+  <tr >
+    
+      <td>
+          Couvercle de defecation
+      </td>
+      <!-- <td>{{childMarker.couvercledefecation}}</td> -->
+      <td *ngIf = "childMarker.couvercledefecation === 'false'">NON</td>
+      <td *ngIf = "childMarker.couvercledefecation !== 'false'">OUI</td>
+  </tr>
+  <tr >
+    
+      <td>
+         Propre
+      </td>
+      <!-- <td>{{childMarker.propre}}</td> -->
+      <td *ngIf = "childMarker.propre === 'false'">NON</td>
+      <td *ngIf = "childMarker.propre !== 'false'">OUI</td>
+  </tr>
+  <tr >
+    
+      <td>
+          Odeur
+      </td>
+      <!-- <td>{{childMarker.odeur}}</td> -->
+      <td *ngIf = "childMarker.odeur === 'false'">NON</td>
+      <td *ngIf = "childMarker.odeur !== 'false'">OUI</td>
+    </tr>
+    <tr >
+    
+        <td>
+            Slms
+        </td>
+        <!-- <td>{{childMarker.slms}}</td> -->
+        <td *ngIf = "childMarker.slms === 'false'">NON</td>
+      <td *ngIf = "childMarker.slms !== 'false'">OUI</td>
+      </tr>
+      
+  <tr >
+    
+    <td>
+        Note
+    </td>
+    <td>{{childMarker.note}}</td>
+    <!-- <td *ngIf = "childMarker.note === 'false'">NON</td>
+      <td *ngIf = "childMarker.note !== 'false'">OUI</td> -->
+</tr>
+
+
+  </tbody>
+</table>
+<button class="btn btn-lg btn-primary btn-block" (click)="delete(childMarker.id)" [style.background-color]="color" style="margin-left: 0; position: relative; width: 300px; "   >Supprimer cette collecte</button>

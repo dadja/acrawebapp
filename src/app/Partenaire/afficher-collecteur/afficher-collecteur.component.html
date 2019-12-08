@@ -1,0 +1,113 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<div class="container">
+    <br/>
+	<div class="row justify-content-center">
+                        
+                            <!-- <form class="card card-sm"> -->
+                                <div class="col-12 col-md-10 col-lg-8">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <!-- <div class="col-auto">
+                                         <i class="fas fa-search h4 text-body"></i>
+                                    </div> -->
+                                    <!--end of col-->
+                                    <div class="col">
+                                        <input [(ngModel)]="searchText" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Chercher un collecteur avec son Nom ou Prenom"/>
+                                    </div>
+                                    <!--end of col-->
+                                    <!-- <div class="col-auto">
+                                        <button class="btn btn-lg btn-success" type="submit">Search</button>
+                                    </div> -->
+                                    <!--end of col-->
+                                </div>
+                              </div>
+                            <!-- </form> -->
+                        
+                        <!--end of col-->
+                    </div>
+</div>
+
+
+
+
+<div style="margin: 10px;">
+  <div class="card shadow mb-4">
+    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+      <h6 class="m-0 font-weight-bold " [style.color]="color">Afficher les collecteurs</h6>
+      
+    </div>
+<div class="card-body" style="margin:0px; padding:0px">
+<table class="table">
+  <thead>
+    <tr>
+      
+      <th scope="col">Nom</th>
+      <th scope="col">Prenom</th>
+      <th scope="col">email</th>
+      <th scope="col">tel</th>
+      <th scope="col">Device ID</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr  *ngFor ="let collecteur of collectors | collectrFilter : searchText" >
+      <td>{{collecteur.nom}}</td>
+      <td>{{collecteur.prenom}}</td>
+      <td>{{collecteur.email}}</td>
+      <td>{{collecteur.tel}}</td>
+      <td>{{collecteur.deviceNumber}}</td>
+      <td *ngIf="collecteur.deviceId !== ''" ><button class="btn btn-lg btn-primary btn-block" [style.background-color]="color" style="margin-left: 0; " (click)="dissocier(collecteur.id)">Dissocier le device</button><button class="btn btn-lg btn-primary btn-block" [style.background-color]="color" style="margin-left: 0; position: relative;" (click)="open1(updatecollecteur, collecteur)">Modifier le collecteur</button></td>
+
+      <td *ngIf="collecteur.deviceId === ''"><button class="btn btn-lg btn-primary btn-block" [style.background-color]="color" style="margin-left: 0; " (click)="open(content, collecteur.id)">Associer un device</button><button class="btn btn-lg btn-primary btn-block" [style.background-color]="color" style="margin-left: 0; position: relative;" (click)="open1(updatecollecteur, collecteur)">Modifier le collecteur</button></td>
+
+    </tr>
+  
+  </tbody>
+</table>  
+</div>
+</div>
+</div>
+
+
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Associer un appareil à un collecteur</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    Choisir l'appareil: 
+    <select (change)= "takeIdDevice($event.target.value)">
+      <option></option>
+      <option *ngFor="let device of devices"  [value]="device.id">{{device.Libele}} ( DeviceID: {{device.deviceNumber}})</option>
+    </select>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close()">Associer</button>
+  </div>
+</ng-template>
+
+
+<ng-template #updatecollecteur let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Mettre à jour un collecteur</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <label  class="sr-only">Nom</label>
+    <input type="text"  [formControl]="updatenom" class="form-control" placeholder="" required autofocus><br/>
+    <label  class="sr-only">Prenom</label>
+    <input type="text"  [formControl]="updateprenom" class="form-control" placeholder="" required autofocus><br/>
+    <label  class="sr-only">Email</label>
+    <input type="text"  [formControl]="updateemail" class="form-control" placeholder="" required autofocus><br/>
+    <label  class="sr-only">Tel</label>
+    <input type="text"  [formControl]="updatetel" class="form-control" placeholder="" required autofocus><br/>
+  </div>
+  <div class="modal-footer">
+      
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close()">Fermer</button>
+    <button type="button" class="btn btn-outline-dark" (click)="updateDatacollecteur()">Enregistrer</button>
+  </div>
+</ng-template>
